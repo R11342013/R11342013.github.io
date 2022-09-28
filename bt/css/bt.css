@@ -1,3 +1,17 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:
+        'Comfortaa',
+        "Lucida Grande",
+        Helvetica,
+        "Helvetica Neue",
+        "HelveticaNeue-Light",
+        "Helvetica Neue Light",
+        Arial,
+        sans-serif;
+}
+
 .jumbotron{
     background-image:url("https://ppt.cc/flMsPx@.jpg");
     color: white;
@@ -6,3 +20,32 @@
     background-position: 50% 80%;
     height: 50vh;
 }
+
+div.gallery {
+    margin: 5px;
+    /* border: 1px solid #ccc; */
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    /* border: 1px solid #777; */
+}
+
+div.gallery img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid#ccc;
+}
+
+div.gallery img:hover {
+    border: 1px solid#777;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
