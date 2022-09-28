@@ -49,3 +49,33 @@ div.desc {
     text-align: center;
 }
 
+div.container li {
+    display: block;
+    background-color: cornflowerblue;
+    padding: 2px;
+    margin: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+div.container ul {
+    padding-left: 0px;
+}
+
+div.container li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.container li:hover {
+    background-color: brown;
+}
+
+div.container li a:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
