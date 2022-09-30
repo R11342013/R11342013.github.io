@@ -1,0 +1,16 @@
+#first {
+    background-image: url("/fixed/assets/mrt_1.jpeg");
+    min-height: 2400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#second {
+    background-image: url("/fixed/assets/mrt_2.jpeg");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
